@@ -12,4 +12,4 @@ while True:
     x_offset = random.randint(-20, 20)
     y_offset = random.randint(-20, 20)
     pyautogui.moveRel(x_offset, y_offset, duration=0.20)
-    time.sleep(29)  # 8 second delay
+    time.sleep(29)  # 29 second delay
