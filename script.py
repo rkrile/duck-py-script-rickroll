@@ -9,7 +9,7 @@ import time
 
 while True:
     # Move the mouse cursor randomly
-    x_offset = random.randint(-250, 250)
-    y_offset = random.randint(-250, 250)
+    x_offset = random.randint(-25, 25)
+    y_offset = random.randint(-25, 25)
     pyautogui.moveRel(x_offset, y_offset, duration=0.25)
-    time.sleep(0.8)  # 8 second delay
+    time.sleep(8)  # 8 second delay
